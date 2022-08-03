@@ -1,0 +1,92 @@
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;700&family=Poppins:wght@300;400;500;700");
+
+
+@media (max-width: 960px) {
+  /* Pour un écran < 960px, cette classe CSS s'applique */
+  .container {
+    width: 700px;
+  }
+}
+
+@media (max-width: 720px) {
+  /* Pour un écran < 720px, cette classe CSS s'applique */
+  .container {
+    width: 500px;
+  }
+}
+
+@media (max-width: 540px) {
+  /* Pour un écran < 540px, cette classe CSS s'applique */
+  .container {
+    width: 300px;
+  }
+}
+
+body {
+  background-color: rgb(230, 230, 230);
+  font-family: Arial, Helvetica, sans-serif;
+  color: black;
+  font-size: 20px;
+}
+
+#first {
+  text-align: center;
+}
+
+h1, h2 {
+  font-family: 'Open Sans', sans-serif;
+  font-size: medium;
+  color: gray;
+  line-height: normal;
+}
+
+p {
+  font-size: small;
+}
+
+a {
+  color: blueviolet;
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+.container {
+  width: 500px;
+  margin: 0 auto;
+}
+
+.card {
+  border-radius: 5px;
+  background: none;
+  box-shadow: brown;
+  border: solid;
+  margin: 15px 15px;
+  padding: 35px 35px;
+}
+
+
+.list-inline > li {
+  display: inline-block;
+  padding: 0px 20px;
+}
+
+.list-inline {
+  list-style: none;
+  padding-left: 0px;
+  text-align: center;
+}
+
+.follow {
+  color: green;
+  text-align: center;
+  font-size: medium;
+}
+
+.btn-blue {
+  border-radius: 5px;
+  background-color: blueviolet;
+  color: white;
+}
